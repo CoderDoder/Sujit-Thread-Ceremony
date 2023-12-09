@@ -47,14 +47,14 @@ html {
 }
 
 body {
-  color: rgb(0, 255, 166)0, 162, 255);
-  background-color: #9898da;
+  background-color: #F4F27E;
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   line-height: 1.7;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Courgette', cursive;
 }
 
 img {
@@ -81,28 +81,34 @@ img {
 /*=================================================================*/
 /*                      TYPOGRAPHY                              
 /*=================================================================*/
-h1, h3, h4, h5, h6 {
+h1, h4, h5, h6 {
   color: #454360;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Courgette', cursive;
   font-weight: 700;
   margin: 5px;
+  text-align: center;
 }
 
 h1 {
   font-size: 36px;
+  color: #000;
 }
 
 h2 {
   font-size: 14px;
   text-align: center;
   color: #280702;
-  font-family: "Rubik", 'Franklin Gothic Medium';
+  font-family: 'Courgette', cursive;
   font-weight: 700;
   margin: 5px;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 21px;
+  text-align: center;
+  color: #280702;
+  font-family: 'Courgette', cursive;
+  margin: 5px;
 }
 
 h4 {
@@ -2401,9 +2407,70 @@ body {
   
 }
 
-#home_img{
+
+  #mobile-image
+
+  {
   
+  display: none;
   
-  size-adjust: calc(float) ;
-}
+  }
+  @media only screen and (max-width: 981px) 
+  
+  {
+  
+     .mobile-image
+  
+  {
+  
+  display: inline;
+  height: auto;
+  width: 150%
+  }
+  
+   
+  
+  .desktop-image
+  
+  {
+  
+  display: none;
+  
+  }
+  
+  }
+  #desktop-image
+
+  {
+  
+  display: none;
+  
+  }
+  @media only screen and (min-width: 982px) 
+  
+  {
+ .mobile-image
+
+  {
+  
+  display: none;
+  
+  }
+  .desktop-image
+  
+  {
+  
+    display: inline;
+    height: auto;
+    width: 150%;
+  }
+  
+  }
+
+  #label_ceremony{
+    font-weight: bold;
+    color: #EE7214;
+  
+  }
+
 /*# sourceMappingURL=style.css.map */
