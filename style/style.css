@@ -2422,7 +2422,7 @@ body {
      .mobile-image
   
   {
-  
+  margin-top: 100px;
   display: inline;
   height: auto;
   width: 150%
